@@ -1,0 +1,5 @@
+该二维码的程序实现了基本的扫描生成，界面没有时间去美化；
+二维码生成的主要代码在EncodingHandler.java文件中，在该类中实现了基本的生成二维码，以及中间带有logo和自定义颜色的二维码；
+扫描二维码的功能在Capture这个activity，所见界面是ViewfinderView.java这个文件绘制的，而调用相机取景实现的类文件是CameraManage类
+ColorPickerDialog类实现自定义二维码颜色 不再是单调的黑白相间
+Untilly基本的工具类，包括了对图片的处理 保存 读取
